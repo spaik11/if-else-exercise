@@ -19,9 +19,9 @@ function isItShort(str) {
 function howLongIsMyString(str) {
   if(str.length > 20) {
     return 'That\'s a long string!';
-  } else if(str.length >= 10 && str.length <=20) {
+  } else if(str.length >= 10) {
     return 'That\'s a regular sized string!';
-  } else if(str.length < 10) {
+  } else {
     return 'That\'s a small string!';
   }
 }
