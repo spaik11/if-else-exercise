@@ -27,9 +27,9 @@ function howLongIsMyString(str) {
 }
 
 function instructorHeight(str) {
-  if(str === 'Colin') {
+  if(str.toLowerCase().trim() === 'colin') {
     return 62;
-  } else if(str === 'Mesuara') {
+  } else if(str.toLowerCase().trim() === 'mesuara') {
     return 67;
   } else {
     return 'I don\'t know that instructor!';
